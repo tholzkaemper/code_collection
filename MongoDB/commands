@@ -1,0 +1,20 @@
+// Start MongoDB server
+mongod --port [port] --dbpath [path/to/db/directory]
+
+// Start the shell
+mongo
+
+// Connect to a db on another host
+mongo some-host:port/database-name
+
+// Switch the database
+use database-name
+
+// Show databases
+show dbs
+
+// Show collections
+show collections
+
+// Run scripts with the shell
+mongo script1.js script2.js
