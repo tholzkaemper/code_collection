@@ -10,7 +10,10 @@ mongo some-host:port/database-name
 // Switch the database
 use database-name
 
-// Show databases
+// Show current db
+db
+
+// Show all databases
 show dbs
 
 // Show collections
@@ -18,3 +21,6 @@ show collections
 
 // Run scripts with the shell
 mongo script1.js script2.js
+
+// Show help
+help
